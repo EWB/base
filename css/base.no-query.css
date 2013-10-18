@@ -123,11 +123,66 @@ h6, .zeta {
   font-size: 1.14286rem;
   color: #077dc3; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/omega\/sites\/all\/themes\/base\/sass\/components\/_navigation\.scss}line{font-family:\000031}}
-#block--system-main-menu .menu a {
-  display: inline-block;
+/**
+ * $NAV-BAR
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/omega\/sites\/all\/themes\/base\/sass\/components\/_navigation\.scss}line{font-family:\000035}}
+#block-system-main-menu .menu {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  /* for IE 6/7 */
+  *zoom: expression(this.runtimeStyle.zoom="1", this.appendChild(document.createElement("br")).style.cssText="clear:both;font:0/0 serif");
+  /* non-JS fallback */
+  *zoom: 1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ewil\/\.rvm\/gems\/ruby-1\.9\.3-p448\@omega\.base\/gems\/toolkit-1\.3\.8\/stylesheets\/toolkit\/_clearfix\.scss}line{font-family:\0000348}}
+  #block-system-main-menu .menu:before, #block-system-main-menu .menu:after {
+    content: ".";
+    display: block;
+    height: 0;
+    overflow: hidden; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ewil\/\.rvm\/gems\/ruby-1\.9\.3-p448\@omega\.base\/gems\/toolkit-1\.3\.8\/stylesheets\/toolkit\/_clearfix\.scss}line{font-family:\0000355}}
+  #block-system-main-menu .menu:after {
+    clear: both; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ewil\/\.rvm\/gems\/ruby-1\.9\.3-p448\@omega\.base\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/typography\/lists\/_horizontal-list\.scss}line{font-family:\0000360}}
+  #block-system-main-menu .menu li {
+    list-style-image: none;
+    list-style-type: none;
+    margin-left: 0;
+    white-space: nowrap;
+    display: inline;
+    float: left;
+    padding-left: 4px;
+    padding-right: 4px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ewil\/\.rvm\/gems\/ruby-1\.9\.3-p448\@omega\.base\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/typography\/lists\/_horizontal-list\.scss}line{font-family:\0000348}}
+    #block-system-main-menu .menu li:first-child, #block-system-main-menu .menu li.first {
+      padding-left: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ewil\/\.rvm\/gems\/ruby-1\.9\.3-p448\@omega\.base\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/typography\/lists\/_horizontal-list\.scss}line{font-family:\0000349}}
+    #block-system-main-menu .menu li:last-child {
+      padding-right: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ewil\/\.rvm\/gems\/ruby-1\.9\.3-p448\@omega\.base\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/typography\/lists\/_horizontal-list\.scss}line{font-family:\0000350}}
+    #block-system-main-menu .menu li.last {
+      padding-right: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/omega\/sites\/all\/themes\/base\/sass\/components\/_navigation\.scss}line{font-family:\000039}}
+#block-system-main-menu a {
+  display: block;
   padding: 1.2em 1em;
-  color: #064771; }
+  font-size: 16px;
+  font-size: 1.14286rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/omega\/sites\/all\/themes\/base\/sass\/components\/_navigation\.scss}line{font-family:\0000319}}
+  #block-system-main-menu a:hover, #block-system-main-menu a:focus {
+    color: #52b1ea; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/omega\/sites\/all\/themes\/base\/sass\/components\/_navigation\.scss}line{font-family:\0000325}}
+#block-system-main-menu a {
+  font-size: 18px;
+  font-size: 1.28571rem;
+  border-left: 1px solid #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/omega\/sites\/all\/themes\/base\/sass\/components\/_navigation\.scss}line{font-family:\0000329}}
+#block-system-main-menu li:last-child a {
+  border-right: 1px solid #fff; }
 
 /**
  * $SITE-BRANDING

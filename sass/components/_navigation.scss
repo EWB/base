@@ -1,10 +1,33 @@
-#block--system-main-menu .menu a {
+/**
+ * $NAV-BAR
+ */
+#block-system-main-menu {
+  .menu {
+    @include horizontal-list;
+  }
 
-	
-    display: inline-block;
+  a {
+    display: block;
     padding: 1.2em 1em;
-    color: $dark-blue;
-	
 
+    @include font-size(16px);
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
 
+    &:hover,
+    &:focus {
+      color: $light-blue;
+    }
+  }
+
+  @include breakpoint(600px, true) {
+    a {
+      @include font-size(18px);
+      border-left: 1px solid #fff;
+    }
+    li:last-child a {
+      border-right: 1px solid #fff;
+    }
+  }
 }
